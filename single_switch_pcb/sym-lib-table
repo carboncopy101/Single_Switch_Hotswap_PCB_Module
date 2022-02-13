@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name hotswapsocket)(type Legacy)(uri ${KIPRJMOD}/libraries/hotswapsocket.lib)(options "")(descr ""))
+)
