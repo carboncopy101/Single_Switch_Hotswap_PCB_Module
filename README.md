@@ -3,7 +3,7 @@
 A simple single switch pcb for mechanical keyboard prototyping row and column matrices.
 PCB features a hot swappable socket and uses a 1n4148 SMD diode.
 
-13 Feb 2022 - did the initial BOM. Created kicad project. Need to start on mounting symbol and footprint
+13 Feb 2022 - did the initial BOM. Created kicad project. Finished with hotswap socket symbol and footprint. To start on schematic.
 
 ## To Do
 - Initial BOM (done 13 Feb 2022)
