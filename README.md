@@ -1,16 +1,19 @@
 # Single_Switch_Hotswap_PCB_Module
+![hotswap socket mechanical drawing](./images/gerbersample.png "gerber")
 
 A simple single switch pcb for mechanical keyboard prototyping row and column matrices.
 PCB features a hot swappable socket and uses a 1n4148 SMD diode.
 
 13 Feb 2022 - did the initial BOM. Created kicad project. Finished with hotswap socket symbol and footprint. To start on schematic.
 
+14 Feb 2022 - finished schematic and pcb. Generated gerber file. Test print and check compatibility with hotswap socket and 3/5 pin switch.
+
 ## To Do
 - Initial BOM (done 13 Feb 2022)
-- Symbol and footprint for each component
-- Schematics
-- Board outline
-- Board routing
+- Symbol and footprint for each component (done 14 Feb 2022)
+- Schematics (done 14 Feb 2022)
+- Board outline (done 14 Feb 2022)
+- Board routing (done 14 Feb 2022)
 - Create a PCB with matrix of single switch for manufacturing.
 
 ## Initial BOM
