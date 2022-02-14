@@ -22,8 +22,8 @@ PCB features a hot swappable socket and uses a 1n4148 SMD diode.
 
 ## Mechanical Drawing
 ![hotswap socket mechanical drawing](./images/hotswap.jpg "hotswap")
-
-![gateron switch mechanical drawing](./images/switch.jpg "switch")
+![gateron switch 5 pin mechanical drawing](./images/switch5pin.png "switch 5 pin")
+![gateron switch 3 pin mechanical drawing](./images/switch.jpg "switch 3 pin")
 
 
 
