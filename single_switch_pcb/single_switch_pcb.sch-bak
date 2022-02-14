@@ -79,18 +79,4 @@ F 3 "~" H 4450 3700 50  0001 C CNN
 	1    4450 3700
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4950 3150 4950 2950
-Wire Wire Line
-	4950 2950 5050 2950
-Wire Wire Line
-	4950 2950 4650 2950
-Connection ~ 4950 2950
-Wire Wire Line
-	4850 3700 4650 3700
-Wire Wire Line
-	4850 3700 4850 3950
-Wire Wire Line
-	4850 3950 4650 3950
-Connection ~ 4850 3700
 $EndSCHEMATC
