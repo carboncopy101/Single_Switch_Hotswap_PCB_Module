@@ -30,7 +30,7 @@ U 1 1 620B6888
 P 4850 3550
 F 0 "D1" V 4896 3470 50  0000 R CNN
 F 1 "1N4148" V 4805 3470 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4850 3375 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4850 3375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4850 3550 50  0001 C CNN
 	1    4850 3550
 	0    -1   -1   0   
