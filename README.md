@@ -8,7 +8,7 @@ PCB features a hot swappable socket and uses a 1n4148 SMD diode.
 
 14 Feb 2022 - finished schematic and pcb. Generated gerber file. Test print and check compatibility with hotswap socket and 3/5 pin switch.
 
-15 Feb 2022 - check if pcb within 1u keycap size(18x18mm). Need to make pcb smaller.
+15 Feb 2022 - check if pcb within 1u keycap size(18x18mm). Need to make pcb smaller. Switch spacing. center to center is 19.05mm.
 ## To Do
 - Initial BOM (done 13 Feb 2022)
 - Symbol and footprint for each component (done 14 Feb 2022)
