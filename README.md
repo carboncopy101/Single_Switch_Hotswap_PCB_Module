@@ -11,6 +11,9 @@ PCB features a hot swappable socket and uses a 1n4148 SMD diode.
 15 Feb 2022 - check if pcb within 1u keycap size(18x18mm). Need to make pcb smaller. Switch spacing. center to center is 19.05mm.
 
 16 Feb 2022 - test print. all components line up. Move on to creating a matrix of single switch pcb. New kicad project?
+
+18 Feb 2022 - created kicad project for single switch matrix
+
 ## To Do
 - Initial BOM (done 13 Feb 2022)
 - Symbol and footprint for each component (done 14 Feb 2022)
@@ -18,7 +21,7 @@ PCB features a hot swappable socket and uses a 1n4148 SMD diode.
 - Board outline (done 14 Feb 2022)
 - Board routing (done 14 Feb 2022)
 - Test parts (done 16 Feb 2022)
-- Create a PCB with matrix of single switch for manufacturing.
+- Create a PCB with matrix of single switch for manufacturing. (started 18 Feb 2022)
 
 ## Initial BOM
 - hotswap socket (need to create library)
