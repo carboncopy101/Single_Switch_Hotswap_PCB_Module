@@ -16,276 +16,2101 @@ $EndDescr
 $Comp
 L hotswapsocket:switchsocket U?
 U 1 1 620F31DF
-P 3950 2600
-F 0 "U?" H 3962 2675 50  0000 C CNN
-F 1 "switchsocket" H 3962 2584 50  0000 C CNN
-F 2 "" H 3950 2600 50  0001 C CNN
-F 3 "" H 3950 2600 50  0001 C CNN
-	1    3950 2600
+P 4250 1200
+F 0 "U?" H 4262 1275 50  0000 C CNN
+F 1 "switchsocket" H 4262 1184 50  0000 C CNN
+F 2 "" H 4250 1200 50  0001 C CNN
+F 3 "" H 4250 1200 50  0001 C CNN
+	1    4250 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L hotswapsocket:switchsocket U?
-U 1 1 620F37F7
-P 4500 2600
-F 0 "U?" H 4512 2675 50  0000 C CNN
-F 1 "switchsocket" H 4512 2584 50  0000 C CNN
-F 2 "" H 4500 2600 50  0001 C CNN
-F 3 "" H 4500 2600 50  0001 C CNN
-	1    4500 2600
+L Diode:1N4148W D?
+U 1 1 621088B6
+P 4250 1750
+F 0 "D?" V 4296 1670 50  0000 R CNN
+F 1 "1N4148W" V 4205 1670 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4250 1575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4250 1750 50  0001 C CNN
+	1    4250 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621103D3
+P 4000 1050
+F 0 "J?" H 3892 825 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3892 916 50  0000 C CNN
+F 2 "" H 4000 1050 50  0001 C CNN
+F 3 "~" H 4000 1050 50  0001 C CNN
+	1    4000 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62111240
+P 4450 1050
+F 0 "J?" H 4478 1076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4478 985 50  0000 L CNN
+F 2 "" H 4450 1050 50  0001 C CNN
+F 3 "~" H 4450 1050 50  0001 C CNN
+	1    4450 1050
 	1    0    0    -1  
 $EndComp
 $Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62114516
+P 3900 2000
+F 0 "J?" H 3792 1775 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3792 1866 50  0000 C CNN
+F 2 "" H 3900 2000 50  0001 C CNN
+F 3 "~" H 3900 2000 50  0001 C CNN
+	1    3900 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6211474F
+P 3900 2100
+F 0 "J?" H 3792 1875 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3792 1966 50  0000 C CNN
+F 2 "" H 3900 2100 50  0001 C CNN
+F 3 "~" H 3900 2100 50  0001 C CNN
+	1    3900 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6211709F
+P 6600 1050
+F 0 "J?" H 6628 1076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 6628 985 50  0000 L CNN
+F 2 "" H 6600 1050 50  0001 C CNN
+F 3 "~" H 6600 1050 50  0001 C CNN
+	1    6600 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62117099
+P 6150 1050
+F 0 "J?" H 6042 825 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 6042 916 50  0000 C CNN
+F 2 "" H 6150 1050 50  0001 C CNN
+F 3 "~" H 6150 1050 50  0001 C CNN
+	1    6150 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621165DB
+P 6050 1050
+F 0 "J?" H 6078 1076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 6078 985 50  0000 L CNN
+F 2 "" H 6050 1050 50  0001 C CNN
+F 3 "~" H 6050 1050 50  0001 C CNN
+	1    6050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621165D5
+P 5600 1050
+F 0 "J?" H 5492 825 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5492 916 50  0000 C CNN
+F 2 "" H 5600 1050 50  0001 C CNN
+F 3 "~" H 5600 1050 50  0001 C CNN
+	1    5600 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62115E2D
+P 5550 1050
+F 0 "J?" H 5578 1076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5578 985 50  0000 L CNN
+F 2 "" H 5550 1050 50  0001 C CNN
+F 3 "~" H 5550 1050 50  0001 C CNN
+	1    5550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62115E27
+P 5100 1050
+F 0 "J?" H 4992 825 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4992 916 50  0000 C CNN
+F 2 "" H 5100 1050 50  0001 C CNN
+F 3 "~" H 5100 1050 50  0001 C CNN
+	1    5100 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6211534B
+P 5000 1050
+F 0 "J?" H 5028 1076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5028 985 50  0000 L CNN
+F 2 "" H 5000 1050 50  0001 C CNN
+F 3 "~" H 5000 1050 50  0001 C CNN
+	1    5000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62115345
+P 4550 1050
+F 0 "J?" H 4442 825 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4442 916 50  0000 C CNN
+F 2 "" H 4550 1050 50  0001 C CNN
+F 3 "~" H 4550 1050 50  0001 C CNN
+	1    4550 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 6210BCD4
+P 6300 1750
+F 0 "D?" V 6346 1670 50  0000 R CNN
+F 1 "1N4148W" V 6255 1670 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6300 1575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6300 1750 50  0001 C CNN
+	1    6300 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 6210AFF7
+P 5800 1750
+F 0 "D?" V 5846 1670 50  0000 R CNN
+F 1 "1N4148W" V 5755 1670 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5800 1575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5800 1750 50  0001 C CNN
+	1    5800 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 6210A34C
+P 5300 1750
+F 0 "D?" V 5346 1670 50  0000 R CNN
+F 1 "1N4148W" V 5255 1670 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5300 1575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5300 1750 50  0001 C CNN
+	1    5300 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 621095FD
+P 4800 1750
+F 0 "D?" V 4846 1670 50  0000 R CNN
+F 1 "1N4148W" V 4755 1670 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4800 1575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4800 1750 50  0001 C CNN
+	1    4800 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
 L hotswapsocket:switchsocket U?
-U 1 1 620F400E
-P 5000 2600
-F 0 "U?" H 5012 2675 50  0000 C CNN
-F 1 "switchsocket" H 5012 2584 50  0000 C CNN
-F 2 "" H 5000 2600 50  0001 C CNN
-F 3 "" H 5000 2600 50  0001 C CNN
-	1    5000 2600
+U 1 1 620F5035
+P 6300 1200
+F 0 "U?" H 6312 1275 50  0000 C CNN
+F 1 "switchsocket" H 6312 1184 50  0000 C CNN
+F 2 "" H 6300 1200 50  0001 C CNN
+F 3 "" H 6300 1200 50  0001 C CNN
+	1    6300 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
 U 1 1 620F4B5D
-P 5500 2600
-F 0 "U?" H 5512 2675 50  0000 C CNN
-F 1 "switchsocket" H 5512 2584 50  0000 C CNN
-F 2 "" H 5500 2600 50  0001 C CNN
-F 3 "" H 5500 2600 50  0001 C CNN
-	1    5500 2600
+P 5800 1200
+F 0 "U?" H 5812 1275 50  0000 C CNN
+F 1 "switchsocket" H 5812 1184 50  0000 C CNN
+F 2 "" H 5800 1200 50  0001 C CNN
+F 3 "" H 5800 1200 50  0001 C CNN
+	1    5800 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
-U 1 1 620F5035
-P 6000 2600
-F 0 "U?" H 6012 2675 50  0000 C CNN
-F 1 "switchsocket" H 6012 2584 50  0000 C CNN
-F 2 "" H 6000 2600 50  0001 C CNN
-F 3 "" H 6000 2600 50  0001 C CNN
-	1    6000 2600
+U 1 1 620F400E
+P 5300 1200
+F 0 "U?" H 5312 1275 50  0000 C CNN
+F 1 "switchsocket" H 5312 1184 50  0000 C CNN
+F 2 "" H 5300 1200 50  0001 C CNN
+F 3 "" H 5300 1200 50  0001 C CNN
+	1    5300 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
-U 1 1 62101E7A
-P 3950 3600
-F 0 "U?" H 3962 3675 50  0000 C CNN
-F 1 "switchsocket" H 3962 3584 50  0000 C CNN
-F 2 "" H 3950 3600 50  0001 C CNN
-F 3 "" H 3950 3600 50  0001 C CNN
-	1    3950 3600
+U 1 1 620F37F7
+P 4800 1200
+F 0 "U?" H 4812 1275 50  0000 C CNN
+F 1 "switchsocket" H 4812 1184 50  0000 C CNN
+F 2 "" H 4800 1200 50  0001 C CNN
+F 3 "" H 4800 1200 50  0001 C CNN
+	1    4800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6212DE93
+P 4450 2000
+F 0 "J?" H 4342 1775 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4342 1866 50  0000 C CNN
+F 2 "" H 4450 2000 50  0001 C CNN
+F 3 "~" H 4450 2000 50  0001 C CNN
+	1    4450 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6212DE99
+P 4450 2100
+F 0 "J?" H 4342 1875 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4342 1966 50  0000 C CNN
+F 2 "" H 4450 2100 50  0001 C CNN
+F 3 "~" H 4450 2100 50  0001 C CNN
+	1    4450 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6212E6CD
+P 4950 2000
+F 0 "J?" H 4842 1775 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4842 1866 50  0000 C CNN
+F 2 "" H 4950 2000 50  0001 C CNN
+F 3 "~" H 4950 2000 50  0001 C CNN
+	1    4950 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6212E6D3
+P 4950 2100
+F 0 "J?" H 4842 1875 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4842 1966 50  0000 C CNN
+F 2 "" H 4950 2100 50  0001 C CNN
+F 3 "~" H 4950 2100 50  0001 C CNN
+	1    4950 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6212ED3B
+P 5500 2000
+F 0 "J?" H 5392 1775 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5392 1866 50  0000 C CNN
+F 2 "" H 5500 2000 50  0001 C CNN
+F 3 "~" H 5500 2000 50  0001 C CNN
+	1    5500 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6212ED41
+P 5500 2100
+F 0 "J?" H 5392 1875 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5392 1966 50  0000 C CNN
+F 2 "" H 5500 2100 50  0001 C CNN
+F 3 "~" H 5500 2100 50  0001 C CNN
+	1    5500 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6212FA75
+P 5950 2000
+F 0 "J?" H 5842 1775 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5842 1866 50  0000 C CNN
+F 2 "" H 5950 2000 50  0001 C CNN
+F 3 "~" H 5950 2000 50  0001 C CNN
+	1    5950 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6212FA7B
+P 5950 2100
+F 0 "J?" H 5842 1875 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5842 1966 50  0000 C CNN
+F 2 "" H 5950 2100 50  0001 C CNN
+F 3 "~" H 5950 2100 50  0001 C CNN
+	1    5950 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 1050 4250 1050
+Wire Wire Line
+	4250 1050 4250 1150
+Wire Wire Line
+	4250 1150 4350 1150
+Wire Wire Line
+	4350 1150 4350 1350
+Connection ~ 4250 1050
+Wire Wire Line
+	4750 1050 4800 1050
+Wire Wire Line
+	4800 1050 4800 1150
+Wire Wire Line
+	4800 1150 4900 1150
+Wire Wire Line
+	4900 1150 4900 1350
+Connection ~ 4800 1050
+Wire Wire Line
+	5300 1050 5350 1050
+Wire Wire Line
+	5350 1050 5350 1150
+Wire Wire Line
+	5350 1150 5400 1150
+Wire Wire Line
+	5400 1150 5400 1350
+Connection ~ 5350 1050
+Wire Wire Line
+	5800 1050 5850 1050
+Wire Wire Line
+	5850 1050 5850 1150
+Wire Wire Line
+	5850 1150 5900 1150
+Wire Wire Line
+	5900 1150 5900 1350
+Connection ~ 5850 1050
+Wire Wire Line
+	6350 1050 6400 1050
+Wire Wire Line
+	6350 1050 6350 1150
+Wire Wire Line
+	6350 1150 6400 1150
+Wire Wire Line
+	6400 1150 6400 1350
+Connection ~ 6350 1050
+Wire Wire Line
+	4250 1900 4250 2000
+Wire Wire Line
+	4250 2000 4100 2000
+Wire Wire Line
+	4100 2100 4250 2100
+Wire Wire Line
+	4250 2100 4250 2000
+Connection ~ 4250 2000
+Wire Wire Line
+	4650 2000 4800 2000
+Wire Wire Line
+	4800 2000 4800 1900
+Wire Wire Line
+	4650 2100 4800 2100
+Wire Wire Line
+	4800 2100 4800 2000
+Connection ~ 4800 2000
+Wire Wire Line
+	5150 2000 5300 2000
+Wire Wire Line
+	5300 2000 5300 1900
+Wire Wire Line
+	5150 2100 5300 2100
+Wire Wire Line
+	5300 2100 5300 2000
+Connection ~ 5300 2000
+Wire Wire Line
+	5700 2000 5800 2000
+Wire Wire Line
+	5800 2000 5800 1900
+Wire Wire Line
+	5700 2100 5800 2100
+Wire Wire Line
+	5800 2100 5800 2000
+Connection ~ 5800 2000
+Wire Wire Line
+	6150 2000 6300 2000
+Wire Wire Line
+	6300 2000 6300 1900
+Wire Wire Line
+	6150 2100 6300 2100
+Wire Wire Line
+	6300 2100 6300 2000
+Connection ~ 6300 2000
+$Comp
+L hotswapsocket:switchsocket U?
+U 1 1 6216800B
+P 4250 2450
+F 0 "U?" H 4262 2525 50  0000 C CNN
+F 1 "switchsocket" H 4262 2434 50  0000 C CNN
+F 2 "" H 4250 2450 50  0001 C CNN
+F 3 "" H 4250 2450 50  0001 C CNN
+	1    4250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 62168011
+P 4250 3000
+F 0 "D?" V 4296 2920 50  0000 R CNN
+F 1 "1N4148W" V 4205 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4250 2825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4250 3000 50  0001 C CNN
+	1    4250 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62168017
+P 4000 2300
+F 0 "J?" H 3892 2075 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3892 2166 50  0000 C CNN
+F 2 "" H 4000 2300 50  0001 C CNN
+F 3 "~" H 4000 2300 50  0001 C CNN
+	1    4000 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6216801D
+P 4450 2300
+F 0 "J?" H 4478 2326 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4478 2235 50  0000 L CNN
+F 2 "" H 4450 2300 50  0001 C CNN
+F 3 "~" H 4450 2300 50  0001 C CNN
+	1    4450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62168023
+P 3900 3250
+F 0 "J?" H 3792 3025 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3792 3116 50  0000 C CNN
+F 2 "" H 3900 3250 50  0001 C CNN
+F 3 "~" H 3900 3250 50  0001 C CNN
+	1    3900 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62168029
+P 3900 3350
+F 0 "J?" H 3792 3125 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3792 3216 50  0000 C CNN
+F 2 "" H 3900 3350 50  0001 C CNN
+F 3 "~" H 3900 3350 50  0001 C CNN
+	1    3900 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6216802F
+P 6600 2300
+F 0 "J?" H 6628 2326 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 6628 2235 50  0000 L CNN
+F 2 "" H 6600 2300 50  0001 C CNN
+F 3 "~" H 6600 2300 50  0001 C CNN
+	1    6600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62168035
+P 6150 2300
+F 0 "J?" H 6042 2075 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 6042 2166 50  0000 C CNN
+F 2 "" H 6150 2300 50  0001 C CNN
+F 3 "~" H 6150 2300 50  0001 C CNN
+	1    6150 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6216803B
+P 6050 2300
+F 0 "J?" H 6078 2326 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 6078 2235 50  0000 L CNN
+F 2 "" H 6050 2300 50  0001 C CNN
+F 3 "~" H 6050 2300 50  0001 C CNN
+	1    6050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62168041
+P 5600 2300
+F 0 "J?" H 5492 2075 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5492 2166 50  0000 C CNN
+F 2 "" H 5600 2300 50  0001 C CNN
+F 3 "~" H 5600 2300 50  0001 C CNN
+	1    5600 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62168047
+P 5550 2300
+F 0 "J?" H 5578 2326 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5578 2235 50  0000 L CNN
+F 2 "" H 5550 2300 50  0001 C CNN
+F 3 "~" H 5550 2300 50  0001 C CNN
+	1    5550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6216804D
+P 5100 2300
+F 0 "J?" H 4992 2075 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4992 2166 50  0000 C CNN
+F 2 "" H 5100 2300 50  0001 C CNN
+F 3 "~" H 5100 2300 50  0001 C CNN
+	1    5100 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62168053
+P 5000 2300
+F 0 "J?" H 5028 2326 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5028 2235 50  0000 L CNN
+F 2 "" H 5000 2300 50  0001 C CNN
+F 3 "~" H 5000 2300 50  0001 C CNN
+	1    5000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62168059
+P 4550 2300
+F 0 "J?" H 4442 2075 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4442 2166 50  0000 C CNN
+F 2 "" H 4550 2300 50  0001 C CNN
+F 3 "~" H 4550 2300 50  0001 C CNN
+	1    4550 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 6216805F
+P 6300 3000
+F 0 "D?" V 6346 2920 50  0000 R CNN
+F 1 "1N4148W" V 6255 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6300 2825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6300 3000 50  0001 C CNN
+	1    6300 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 62168065
+P 5800 3000
+F 0 "D?" V 5846 2920 50  0000 R CNN
+F 1 "1N4148W" V 5755 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5800 2825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5800 3000 50  0001 C CNN
+	1    5800 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 6216806B
+P 5300 3000
+F 0 "D?" V 5346 2920 50  0000 R CNN
+F 1 "1N4148W" V 5255 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5300 2825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5300 3000 50  0001 C CNN
+	1    5300 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 62168071
+P 4800 3000
+F 0 "D?" V 4846 2920 50  0000 R CNN
+F 1 "1N4148W" V 4755 2920 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4800 2825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4800 3000 50  0001 C CNN
+	1    4800 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L hotswapsocket:switchsocket U?
+U 1 1 62168077
+P 6300 2450
+F 0 "U?" H 6312 2525 50  0000 C CNN
+F 1 "switchsocket" H 6312 2434 50  0000 C CNN
+F 2 "" H 6300 2450 50  0001 C CNN
+F 3 "" H 6300 2450 50  0001 C CNN
+	1    6300 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
-U 1 1 62101E80
-P 4500 3600
-F 0 "U?" H 4512 3675 50  0000 C CNN
-F 1 "switchsocket" H 4512 3584 50  0000 C CNN
-F 2 "" H 4500 3600 50  0001 C CNN
-F 3 "" H 4500 3600 50  0001 C CNN
-	1    4500 3600
+U 1 1 6216807D
+P 5800 2450
+F 0 "U?" H 5812 2525 50  0000 C CNN
+F 1 "switchsocket" H 5812 2434 50  0000 C CNN
+F 2 "" H 5800 2450 50  0001 C CNN
+F 3 "" H 5800 2450 50  0001 C CNN
+	1    5800 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
-U 1 1 62101E86
-P 5000 3600
-F 0 "U?" H 5012 3675 50  0000 C CNN
-F 1 "switchsocket" H 5012 3584 50  0000 C CNN
-F 2 "" H 5000 3600 50  0001 C CNN
-F 3 "" H 5000 3600 50  0001 C CNN
-	1    5000 3600
+U 1 1 62168083
+P 5300 2450
+F 0 "U?" H 5312 2525 50  0000 C CNN
+F 1 "switchsocket" H 5312 2434 50  0000 C CNN
+F 2 "" H 5300 2450 50  0001 C CNN
+F 3 "" H 5300 2450 50  0001 C CNN
+	1    5300 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
-U 1 1 62101E8C
-P 5500 3600
-F 0 "U?" H 5512 3675 50  0000 C CNN
-F 1 "switchsocket" H 5512 3584 50  0000 C CNN
-F 2 "" H 5500 3600 50  0001 C CNN
-F 3 "" H 5500 3600 50  0001 C CNN
-	1    5500 3600
+U 1 1 62168089
+P 4800 2450
+F 0 "U?" H 4812 2525 50  0000 C CNN
+F 1 "switchsocket" H 4812 2434 50  0000 C CNN
+F 2 "" H 4800 2450 50  0001 C CNN
+F 3 "" H 4800 2450 50  0001 C CNN
+	1    4800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6216808F
+P 4450 3250
+F 0 "J?" H 4342 3025 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4342 3116 50  0000 C CNN
+F 2 "" H 4450 3250 50  0001 C CNN
+F 3 "~" H 4450 3250 50  0001 C CNN
+	1    4450 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62168095
+P 4450 3350
+F 0 "J?" H 4342 3125 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4342 3216 50  0000 C CNN
+F 2 "" H 4450 3350 50  0001 C CNN
+F 3 "~" H 4450 3350 50  0001 C CNN
+	1    4450 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6216809B
+P 4950 3250
+F 0 "J?" H 4842 3025 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4842 3116 50  0000 C CNN
+F 2 "" H 4950 3250 50  0001 C CNN
+F 3 "~" H 4950 3250 50  0001 C CNN
+	1    4950 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621680A1
+P 4950 3350
+F 0 "J?" H 4842 3125 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4842 3216 50  0000 C CNN
+F 2 "" H 4950 3350 50  0001 C CNN
+F 3 "~" H 4950 3350 50  0001 C CNN
+	1    4950 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621680A7
+P 5500 3250
+F 0 "J?" H 5392 3025 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5392 3116 50  0000 C CNN
+F 2 "" H 5500 3250 50  0001 C CNN
+F 3 "~" H 5500 3250 50  0001 C CNN
+	1    5500 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621680AD
+P 5500 3350
+F 0 "J?" H 5392 3125 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5392 3216 50  0000 C CNN
+F 2 "" H 5500 3350 50  0001 C CNN
+F 3 "~" H 5500 3350 50  0001 C CNN
+	1    5500 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621680B3
+P 5950 3250
+F 0 "J?" H 5842 3025 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5842 3116 50  0000 C CNN
+F 2 "" H 5950 3250 50  0001 C CNN
+F 3 "~" H 5950 3250 50  0001 C CNN
+	1    5950 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621680B9
+P 5950 3350
+F 0 "J?" H 5842 3125 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5842 3216 50  0000 C CNN
+F 2 "" H 5950 3350 50  0001 C CNN
+F 3 "~" H 5950 3350 50  0001 C CNN
+	1    5950 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 2300 4250 2300
+Wire Wire Line
+	4250 2300 4250 2400
+Wire Wire Line
+	4250 2400 4350 2400
+Wire Wire Line
+	4350 2400 4350 2600
+Connection ~ 4250 2300
+Wire Wire Line
+	4750 2300 4800 2300
+Wire Wire Line
+	4800 2300 4800 2400
+Wire Wire Line
+	4800 2400 4900 2400
+Wire Wire Line
+	4900 2400 4900 2600
+Connection ~ 4800 2300
+Wire Wire Line
+	5300 2300 5350 2300
+Wire Wire Line
+	5350 2300 5350 2400
+Wire Wire Line
+	5350 2400 5400 2400
+Wire Wire Line
+	5400 2400 5400 2600
+Connection ~ 5350 2300
+Wire Wire Line
+	5800 2300 5850 2300
+Wire Wire Line
+	5850 2300 5850 2400
+Wire Wire Line
+	5850 2400 5900 2400
+Wire Wire Line
+	5900 2400 5900 2600
+Connection ~ 5850 2300
+Wire Wire Line
+	6350 2300 6400 2300
+Wire Wire Line
+	6350 2300 6350 2400
+Wire Wire Line
+	6350 2400 6400 2400
+Wire Wire Line
+	6400 2400 6400 2600
+Connection ~ 6350 2300
+Wire Wire Line
+	4250 3150 4250 3250
+Wire Wire Line
+	4250 3250 4100 3250
+Wire Wire Line
+	4100 3350 4250 3350
+Wire Wire Line
+	4250 3350 4250 3250
+Connection ~ 4250 3250
+Wire Wire Line
+	4650 3250 4800 3250
+Wire Wire Line
+	4800 3250 4800 3150
+Wire Wire Line
+	4650 3350 4800 3350
+Wire Wire Line
+	4800 3350 4800 3250
+Connection ~ 4800 3250
+Wire Wire Line
+	5150 3250 5300 3250
+Wire Wire Line
+	5300 3250 5300 3150
+Wire Wire Line
+	5150 3350 5300 3350
+Wire Wire Line
+	5300 3350 5300 3250
+Connection ~ 5300 3250
+Wire Wire Line
+	5700 3250 5800 3250
+Wire Wire Line
+	5800 3250 5800 3150
+Wire Wire Line
+	5700 3350 5800 3350
+Wire Wire Line
+	5800 3350 5800 3250
+Connection ~ 5800 3250
+Wire Wire Line
+	6150 3250 6300 3250
+Wire Wire Line
+	6300 3250 6300 3150
+Wire Wire Line
+	6150 3350 6300 3350
+Wire Wire Line
+	6300 3350 6300 3250
+Connection ~ 6300 3250
+$Comp
+L hotswapsocket:switchsocket U?
+U 1 1 621776E8
+P 4250 3850
+F 0 "U?" H 4262 3925 50  0000 C CNN
+F 1 "switchsocket" H 4262 3834 50  0000 C CNN
+F 2 "" H 4250 3850 50  0001 C CNN
+F 3 "" H 4250 3850 50  0001 C CNN
+	1    4250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 621776EE
+P 4250 4400
+F 0 "D?" V 4296 4320 50  0000 R CNN
+F 1 "1N4148W" V 4205 4320 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4250 4225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4250 4400 50  0001 C CNN
+	1    4250 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621776F4
+P 4000 3700
+F 0 "J?" H 3892 3475 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3892 3566 50  0000 C CNN
+F 2 "" H 4000 3700 50  0001 C CNN
+F 3 "~" H 4000 3700 50  0001 C CNN
+	1    4000 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621776FA
+P 4450 3700
+F 0 "J?" H 4478 3726 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4478 3635 50  0000 L CNN
+F 2 "" H 4450 3700 50  0001 C CNN
+F 3 "~" H 4450 3700 50  0001 C CNN
+	1    4450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62177700
+P 3900 4650
+F 0 "J?" H 3792 4425 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3792 4516 50  0000 C CNN
+F 2 "" H 3900 4650 50  0001 C CNN
+F 3 "~" H 3900 4650 50  0001 C CNN
+	1    3900 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62177706
+P 3900 4750
+F 0 "J?" H 3792 4525 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3792 4616 50  0000 C CNN
+F 2 "" H 3900 4750 50  0001 C CNN
+F 3 "~" H 3900 4750 50  0001 C CNN
+	1    3900 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6217770C
+P 6600 3700
+F 0 "J?" H 6628 3726 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 6628 3635 50  0000 L CNN
+F 2 "" H 6600 3700 50  0001 C CNN
+F 3 "~" H 6600 3700 50  0001 C CNN
+	1    6600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62177712
+P 6150 3700
+F 0 "J?" H 6042 3475 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 6042 3566 50  0000 C CNN
+F 2 "" H 6150 3700 50  0001 C CNN
+F 3 "~" H 6150 3700 50  0001 C CNN
+	1    6150 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62177718
+P 6050 3700
+F 0 "J?" H 6078 3726 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 6078 3635 50  0000 L CNN
+F 2 "" H 6050 3700 50  0001 C CNN
+F 3 "~" H 6050 3700 50  0001 C CNN
+	1    6050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6217771E
+P 5600 3700
+F 0 "J?" H 5492 3475 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5492 3566 50  0000 C CNN
+F 2 "" H 5600 3700 50  0001 C CNN
+F 3 "~" H 5600 3700 50  0001 C CNN
+	1    5600 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62177724
+P 5550 3700
+F 0 "J?" H 5578 3726 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5578 3635 50  0000 L CNN
+F 2 "" H 5550 3700 50  0001 C CNN
+F 3 "~" H 5550 3700 50  0001 C CNN
+	1    5550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6217772A
+P 5100 3700
+F 0 "J?" H 4992 3475 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4992 3566 50  0000 C CNN
+F 2 "" H 5100 3700 50  0001 C CNN
+F 3 "~" H 5100 3700 50  0001 C CNN
+	1    5100 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62177730
+P 5000 3700
+F 0 "J?" H 5028 3726 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5028 3635 50  0000 L CNN
+F 2 "" H 5000 3700 50  0001 C CNN
+F 3 "~" H 5000 3700 50  0001 C CNN
+	1    5000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62177736
+P 4550 3700
+F 0 "J?" H 4442 3475 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4442 3566 50  0000 C CNN
+F 2 "" H 4550 3700 50  0001 C CNN
+F 3 "~" H 4550 3700 50  0001 C CNN
+	1    4550 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 6217773C
+P 6300 4400
+F 0 "D?" V 6346 4320 50  0000 R CNN
+F 1 "1N4148W" V 6255 4320 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6300 4225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6300 4400 50  0001 C CNN
+	1    6300 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 62177742
+P 5800 4400
+F 0 "D?" V 5846 4320 50  0000 R CNN
+F 1 "1N4148W" V 5755 4320 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5800 4225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5800 4400 50  0001 C CNN
+	1    5800 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 62177748
+P 5300 4400
+F 0 "D?" V 5346 4320 50  0000 R CNN
+F 1 "1N4148W" V 5255 4320 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5300 4225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5300 4400 50  0001 C CNN
+	1    5300 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 6217774E
+P 4800 4400
+F 0 "D?" V 4846 4320 50  0000 R CNN
+F 1 "1N4148W" V 4755 4320 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4800 4225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4800 4400 50  0001 C CNN
+	1    4800 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L hotswapsocket:switchsocket U?
+U 1 1 62177754
+P 6300 3850
+F 0 "U?" H 6312 3925 50  0000 C CNN
+F 1 "switchsocket" H 6312 3834 50  0000 C CNN
+F 2 "" H 6300 3850 50  0001 C CNN
+F 3 "" H 6300 3850 50  0001 C CNN
+	1    6300 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
-U 1 1 62101E92
-P 6000 3600
-F 0 "U?" H 6012 3675 50  0000 C CNN
-F 1 "switchsocket" H 6012 3584 50  0000 C CNN
-F 2 "" H 6000 3600 50  0001 C CNN
-F 3 "" H 6000 3600 50  0001 C CNN
-	1    6000 3600
+U 1 1 6217775A
+P 5800 3850
+F 0 "U?" H 5812 3925 50  0000 C CNN
+F 1 "switchsocket" H 5812 3834 50  0000 C CNN
+F 2 "" H 5800 3850 50  0001 C CNN
+F 3 "" H 5800 3850 50  0001 C CNN
+	1    5800 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
-U 1 1 621046B7
-P 3950 4600
-F 0 "U?" H 3962 4675 50  0000 C CNN
-F 1 "switchsocket" H 3962 4584 50  0000 C CNN
-F 2 "" H 3950 4600 50  0001 C CNN
-F 3 "" H 3950 4600 50  0001 C CNN
-	1    3950 4600
+U 1 1 62177760
+P 5300 3850
+F 0 "U?" H 5312 3925 50  0000 C CNN
+F 1 "switchsocket" H 5312 3834 50  0000 C CNN
+F 2 "" H 5300 3850 50  0001 C CNN
+F 3 "" H 5300 3850 50  0001 C CNN
+	1    5300 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
-U 1 1 621046BD
-P 4500 4600
-F 0 "U?" H 4512 4675 50  0000 C CNN
-F 1 "switchsocket" H 4512 4584 50  0000 C CNN
-F 2 "" H 4500 4600 50  0001 C CNN
-F 3 "" H 4500 4600 50  0001 C CNN
-	1    4500 4600
+U 1 1 62177766
+P 4800 3850
+F 0 "U?" H 4812 3925 50  0000 C CNN
+F 1 "switchsocket" H 4812 3834 50  0000 C CNN
+F 2 "" H 4800 3850 50  0001 C CNN
+F 3 "" H 4800 3850 50  0001 C CNN
+	1    4800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6217776C
+P 4450 4650
+F 0 "J?" H 4342 4425 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4342 4516 50  0000 C CNN
+F 2 "" H 4450 4650 50  0001 C CNN
+F 3 "~" H 4450 4650 50  0001 C CNN
+	1    4450 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62177772
+P 4450 4750
+F 0 "J?" H 4342 4525 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4342 4616 50  0000 C CNN
+F 2 "" H 4450 4750 50  0001 C CNN
+F 3 "~" H 4450 4750 50  0001 C CNN
+	1    4450 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62177778
+P 4950 4650
+F 0 "J?" H 4842 4425 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4842 4516 50  0000 C CNN
+F 2 "" H 4950 4650 50  0001 C CNN
+F 3 "~" H 4950 4650 50  0001 C CNN
+	1    4950 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6217777E
+P 4950 4750
+F 0 "J?" H 4842 4525 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4842 4616 50  0000 C CNN
+F 2 "" H 4950 4750 50  0001 C CNN
+F 3 "~" H 4950 4750 50  0001 C CNN
+	1    4950 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62177784
+P 5500 4650
+F 0 "J?" H 5392 4425 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5392 4516 50  0000 C CNN
+F 2 "" H 5500 4650 50  0001 C CNN
+F 3 "~" H 5500 4650 50  0001 C CNN
+	1    5500 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6217778A
+P 5500 4750
+F 0 "J?" H 5392 4525 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5392 4616 50  0000 C CNN
+F 2 "" H 5500 4750 50  0001 C CNN
+F 3 "~" H 5500 4750 50  0001 C CNN
+	1    5500 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62177790
+P 5950 4650
+F 0 "J?" H 5842 4425 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5842 4516 50  0000 C CNN
+F 2 "" H 5950 4650 50  0001 C CNN
+F 3 "~" H 5950 4650 50  0001 C CNN
+	1    5950 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62177796
+P 5950 4750
+F 0 "J?" H 5842 4525 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5842 4616 50  0000 C CNN
+F 2 "" H 5950 4750 50  0001 C CNN
+F 3 "~" H 5950 4750 50  0001 C CNN
+	1    5950 4750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 3700 4250 3700
+Wire Wire Line
+	4250 3700 4250 3800
+Wire Wire Line
+	4250 3800 4350 3800
+Wire Wire Line
+	4350 3800 4350 4000
+Connection ~ 4250 3700
+Wire Wire Line
+	4750 3700 4800 3700
+Wire Wire Line
+	4800 3700 4800 3800
+Wire Wire Line
+	4800 3800 4900 3800
+Wire Wire Line
+	4900 3800 4900 4000
+Connection ~ 4800 3700
+Wire Wire Line
+	5300 3700 5350 3700
+Wire Wire Line
+	5350 3700 5350 3800
+Wire Wire Line
+	5350 3800 5400 3800
+Wire Wire Line
+	5400 3800 5400 4000
+Connection ~ 5350 3700
+Wire Wire Line
+	5800 3700 5850 3700
+Wire Wire Line
+	5850 3700 5850 3800
+Wire Wire Line
+	5850 3800 5900 3800
+Wire Wire Line
+	5900 3800 5900 4000
+Connection ~ 5850 3700
+Wire Wire Line
+	6350 3700 6400 3700
+Wire Wire Line
+	6350 3700 6350 3800
+Wire Wire Line
+	6350 3800 6400 3800
+Wire Wire Line
+	6400 3800 6400 4000
+Connection ~ 6350 3700
+Wire Wire Line
+	4250 4550 4250 4650
+Wire Wire Line
+	4250 4650 4100 4650
+Wire Wire Line
+	4100 4750 4250 4750
+Wire Wire Line
+	4250 4750 4250 4650
+Connection ~ 4250 4650
+Wire Wire Line
+	4650 4650 4800 4650
+Wire Wire Line
+	4800 4650 4800 4550
+Wire Wire Line
+	4650 4750 4800 4750
+Wire Wire Line
+	4800 4750 4800 4650
+Connection ~ 4800 4650
+Wire Wire Line
+	5150 4650 5300 4650
+Wire Wire Line
+	5300 4650 5300 4550
+Wire Wire Line
+	5150 4750 5300 4750
+Wire Wire Line
+	5300 4750 5300 4650
+Connection ~ 5300 4650
+Wire Wire Line
+	5700 4650 5800 4650
+Wire Wire Line
+	5800 4650 5800 4550
+Wire Wire Line
+	5700 4750 5800 4750
+Wire Wire Line
+	5800 4750 5800 4650
+Connection ~ 5800 4650
+Wire Wire Line
+	6150 4650 6300 4650
+Wire Wire Line
+	6300 4650 6300 4550
+Wire Wire Line
+	6150 4750 6300 4750
+Wire Wire Line
+	6300 4750 6300 4650
+Connection ~ 6300 4650
+$Comp
+L hotswapsocket:switchsocket U?
+U 1 1 62185838
+P 4250 5150
+F 0 "U?" H 4262 5225 50  0000 C CNN
+F 1 "switchsocket" H 4262 5134 50  0000 C CNN
+F 2 "" H 4250 5150 50  0001 C CNN
+F 3 "" H 4250 5150 50  0001 C CNN
+	1    4250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 6218583E
+P 4250 5700
+F 0 "D?" V 4296 5620 50  0000 R CNN
+F 1 "1N4148W" V 4205 5620 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4250 5525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4250 5700 50  0001 C CNN
+	1    4250 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62185844
+P 4000 5000
+F 0 "J?" H 3892 4775 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3892 4866 50  0000 C CNN
+F 2 "" H 4000 5000 50  0001 C CNN
+F 3 "~" H 4000 5000 50  0001 C CNN
+	1    4000 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6218584A
+P 4450 5000
+F 0 "J?" H 4478 5026 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4478 4935 50  0000 L CNN
+F 2 "" H 4450 5000 50  0001 C CNN
+F 3 "~" H 4450 5000 50  0001 C CNN
+	1    4450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62185850
+P 3900 5950
+F 0 "J?" H 3792 5725 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3792 5816 50  0000 C CNN
+F 2 "" H 3900 5950 50  0001 C CNN
+F 3 "~" H 3900 5950 50  0001 C CNN
+	1    3900 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62185856
+P 3900 6050
+F 0 "J?" H 3792 5825 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3792 5916 50  0000 C CNN
+F 2 "" H 3900 6050 50  0001 C CNN
+F 3 "~" H 3900 6050 50  0001 C CNN
+	1    3900 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6218585C
+P 6600 5000
+F 0 "J?" H 6628 5026 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 6628 4935 50  0000 L CNN
+F 2 "" H 6600 5000 50  0001 C CNN
+F 3 "~" H 6600 5000 50  0001 C CNN
+	1    6600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62185862
+P 6150 5000
+F 0 "J?" H 6042 4775 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 6042 4866 50  0000 C CNN
+F 2 "" H 6150 5000 50  0001 C CNN
+F 3 "~" H 6150 5000 50  0001 C CNN
+	1    6150 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62185868
+P 6050 5000
+F 0 "J?" H 6078 5026 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 6078 4935 50  0000 L CNN
+F 2 "" H 6050 5000 50  0001 C CNN
+F 3 "~" H 6050 5000 50  0001 C CNN
+	1    6050 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6218586E
+P 5600 5000
+F 0 "J?" H 5492 4775 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5492 4866 50  0000 C CNN
+F 2 "" H 5600 5000 50  0001 C CNN
+F 3 "~" H 5600 5000 50  0001 C CNN
+	1    5600 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62185874
+P 5550 5000
+F 0 "J?" H 5578 5026 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5578 4935 50  0000 L CNN
+F 2 "" H 5550 5000 50  0001 C CNN
+F 3 "~" H 5550 5000 50  0001 C CNN
+	1    5550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 6218587A
+P 5100 5000
+F 0 "J?" H 4992 4775 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4992 4866 50  0000 C CNN
+F 2 "" H 5100 5000 50  0001 C CNN
+F 3 "~" H 5100 5000 50  0001 C CNN
+	1    5100 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62185880
+P 5000 5000
+F 0 "J?" H 5028 5026 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5028 4935 50  0000 L CNN
+F 2 "" H 5000 5000 50  0001 C CNN
+F 3 "~" H 5000 5000 50  0001 C CNN
+	1    5000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62185886
+P 4550 5000
+F 0 "J?" H 4442 4775 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4442 4866 50  0000 C CNN
+F 2 "" H 4550 5000 50  0001 C CNN
+F 3 "~" H 4550 5000 50  0001 C CNN
+	1    4550 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 6218588C
+P 6300 5700
+F 0 "D?" V 6346 5620 50  0000 R CNN
+F 1 "1N4148W" V 6255 5620 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6300 5525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6300 5700 50  0001 C CNN
+	1    6300 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 62185892
+P 5800 5700
+F 0 "D?" V 5846 5620 50  0000 R CNN
+F 1 "1N4148W" V 5755 5620 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5800 5525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5800 5700 50  0001 C CNN
+	1    5800 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 62185898
+P 5300 5700
+F 0 "D?" V 5346 5620 50  0000 R CNN
+F 1 "1N4148W" V 5255 5620 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5300 5525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5300 5700 50  0001 C CNN
+	1    5300 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 6218589E
+P 4800 5700
+F 0 "D?" V 4846 5620 50  0000 R CNN
+F 1 "1N4148W" V 4755 5620 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4800 5525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4800 5700 50  0001 C CNN
+	1    4800 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L hotswapsocket:switchsocket U?
+U 1 1 621858A4
+P 6300 5150
+F 0 "U?" H 6312 5225 50  0000 C CNN
+F 1 "switchsocket" H 6312 5134 50  0000 C CNN
+F 2 "" H 6300 5150 50  0001 C CNN
+F 3 "" H 6300 5150 50  0001 C CNN
+	1    6300 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
-U 1 1 621046C3
-P 5000 4600
-F 0 "U?" H 5012 4675 50  0000 C CNN
-F 1 "switchsocket" H 5012 4584 50  0000 C CNN
-F 2 "" H 5000 4600 50  0001 C CNN
-F 3 "" H 5000 4600 50  0001 C CNN
-	1    5000 4600
+U 1 1 621858AA
+P 5800 5150
+F 0 "U?" H 5812 5225 50  0000 C CNN
+F 1 "switchsocket" H 5812 5134 50  0000 C CNN
+F 2 "" H 5800 5150 50  0001 C CNN
+F 3 "" H 5800 5150 50  0001 C CNN
+	1    5800 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
-U 1 1 621046C9
-P 5500 4600
-F 0 "U?" H 5512 4675 50  0000 C CNN
-F 1 "switchsocket" H 5512 4584 50  0000 C CNN
-F 2 "" H 5500 4600 50  0001 C CNN
-F 3 "" H 5500 4600 50  0001 C CNN
-	1    5500 4600
+U 1 1 621858B0
+P 5300 5150
+F 0 "U?" H 5312 5225 50  0000 C CNN
+F 1 "switchsocket" H 5312 5134 50  0000 C CNN
+F 2 "" H 5300 5150 50  0001 C CNN
+F 3 "" H 5300 5150 50  0001 C CNN
+	1    5300 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
-U 1 1 621046CF
-P 6000 4600
-F 0 "U?" H 6012 4675 50  0000 C CNN
-F 1 "switchsocket" H 6012 4584 50  0000 C CNN
-F 2 "" H 6000 4600 50  0001 C CNN
-F 3 "" H 6000 4600 50  0001 C CNN
-	1    6000 4600
+U 1 1 621858B6
+P 4800 5150
+F 0 "U?" H 4812 5225 50  0000 C CNN
+F 1 "switchsocket" H 4812 5134 50  0000 C CNN
+F 2 "" H 4800 5150 50  0001 C CNN
+F 3 "" H 4800 5150 50  0001 C CNN
+	1    4800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621858BC
+P 4450 5950
+F 0 "J?" H 4342 5725 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4342 5816 50  0000 C CNN
+F 2 "" H 4450 5950 50  0001 C CNN
+F 3 "~" H 4450 5950 50  0001 C CNN
+	1    4450 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621858C2
+P 4450 6050
+F 0 "J?" H 4342 5825 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4342 5916 50  0000 C CNN
+F 2 "" H 4450 6050 50  0001 C CNN
+F 3 "~" H 4450 6050 50  0001 C CNN
+	1    4450 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621858C8
+P 4950 5950
+F 0 "J?" H 4842 5725 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4842 5816 50  0000 C CNN
+F 2 "" H 4950 5950 50  0001 C CNN
+F 3 "~" H 4950 5950 50  0001 C CNN
+	1    4950 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621858CE
+P 4950 6050
+F 0 "J?" H 4842 5825 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4842 5916 50  0000 C CNN
+F 2 "" H 4950 6050 50  0001 C CNN
+F 3 "~" H 4950 6050 50  0001 C CNN
+	1    4950 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621858D4
+P 5500 5950
+F 0 "J?" H 5392 5725 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5392 5816 50  0000 C CNN
+F 2 "" H 5500 5950 50  0001 C CNN
+F 3 "~" H 5500 5950 50  0001 C CNN
+	1    5500 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621858DA
+P 5500 6050
+F 0 "J?" H 5392 5825 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5392 5916 50  0000 C CNN
+F 2 "" H 5500 6050 50  0001 C CNN
+F 3 "~" H 5500 6050 50  0001 C CNN
+	1    5500 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621858E0
+P 5950 5950
+F 0 "J?" H 5842 5725 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5842 5816 50  0000 C CNN
+F 2 "" H 5950 5950 50  0001 C CNN
+F 3 "~" H 5950 5950 50  0001 C CNN
+	1    5950 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 621858E6
+P 5950 6050
+F 0 "J?" H 5842 5825 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5842 5916 50  0000 C CNN
+F 2 "" H 5950 6050 50  0001 C CNN
+F 3 "~" H 5950 6050 50  0001 C CNN
+	1    5950 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 5000 4250 5000
+Wire Wire Line
+	4250 5000 4250 5100
+Wire Wire Line
+	4250 5100 4350 5100
+Wire Wire Line
+	4350 5100 4350 5300
+Connection ~ 4250 5000
+Wire Wire Line
+	4750 5000 4800 5000
+Wire Wire Line
+	4800 5000 4800 5100
+Wire Wire Line
+	4800 5100 4900 5100
+Wire Wire Line
+	4900 5100 4900 5300
+Connection ~ 4800 5000
+Wire Wire Line
+	5300 5000 5350 5000
+Wire Wire Line
+	5350 5000 5350 5100
+Wire Wire Line
+	5350 5100 5400 5100
+Wire Wire Line
+	5400 5100 5400 5300
+Connection ~ 5350 5000
+Wire Wire Line
+	5800 5000 5850 5000
+Wire Wire Line
+	5850 5000 5850 5100
+Wire Wire Line
+	5850 5100 5900 5100
+Wire Wire Line
+	5900 5100 5900 5300
+Connection ~ 5850 5000
+Wire Wire Line
+	6350 5000 6400 5000
+Wire Wire Line
+	6350 5000 6350 5100
+Wire Wire Line
+	6350 5100 6400 5100
+Wire Wire Line
+	6400 5100 6400 5300
+Connection ~ 6350 5000
+Wire Wire Line
+	4250 5850 4250 5950
+Wire Wire Line
+	4250 5950 4100 5950
+Wire Wire Line
+	4100 6050 4250 6050
+Wire Wire Line
+	4250 6050 4250 5950
+Connection ~ 4250 5950
+Wire Wire Line
+	4650 5950 4800 5950
+Wire Wire Line
+	4800 5950 4800 5850
+Wire Wire Line
+	4650 6050 4800 6050
+Wire Wire Line
+	4800 6050 4800 5950
+Connection ~ 4800 5950
+Wire Wire Line
+	5150 5950 5300 5950
+Wire Wire Line
+	5300 5950 5300 5850
+Wire Wire Line
+	5150 6050 5300 6050
+Wire Wire Line
+	5300 6050 5300 5950
+Connection ~ 5300 5950
+Wire Wire Line
+	5700 5950 5800 5950
+Wire Wire Line
+	5800 5950 5800 5850
+Wire Wire Line
+	5700 6050 5800 6050
+Wire Wire Line
+	5800 6050 5800 5950
+Connection ~ 5800 5950
+Wire Wire Line
+	6150 5950 6300 5950
+Wire Wire Line
+	6300 5950 6300 5850
+Wire Wire Line
+	6150 6050 6300 6050
+Wire Wire Line
+	6300 6050 6300 5950
+Connection ~ 6300 5950
+$Comp
+L hotswapsocket:switchsocket U?
+U 1 1 62199E32
+P 4250 6500
+F 0 "U?" H 4262 6575 50  0000 C CNN
+F 1 "switchsocket" H 4262 6484 50  0000 C CNN
+F 2 "" H 4250 6500 50  0001 C CNN
+F 3 "" H 4250 6500 50  0001 C CNN
+	1    4250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 62199E38
+P 4250 7050
+F 0 "D?" V 4296 6970 50  0000 R CNN
+F 1 "1N4148W" V 4205 6970 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4250 6875 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4250 7050 50  0001 C CNN
+	1    4250 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62199E3E
+P 4000 6350
+F 0 "J?" H 3892 6125 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3892 6216 50  0000 C CNN
+F 2 "" H 4000 6350 50  0001 C CNN
+F 3 "~" H 4000 6350 50  0001 C CNN
+	1    4000 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62199E44
+P 4450 6350
+F 0 "J?" H 4478 6376 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4478 6285 50  0000 L CNN
+F 2 "" H 4450 6350 50  0001 C CNN
+F 3 "~" H 4450 6350 50  0001 C CNN
+	1    4450 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62199E4A
+P 3900 7300
+F 0 "J?" H 3792 7075 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3792 7166 50  0000 C CNN
+F 2 "" H 3900 7300 50  0001 C CNN
+F 3 "~" H 3900 7300 50  0001 C CNN
+	1    3900 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62199E50
+P 3900 7400
+F 0 "J?" H 3792 7175 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3792 7266 50  0000 C CNN
+F 2 "" H 3900 7400 50  0001 C CNN
+F 3 "~" H 3900 7400 50  0001 C CNN
+	1    3900 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62199E56
+P 6600 6350
+F 0 "J?" H 6628 6376 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 6628 6285 50  0000 L CNN
+F 2 "" H 6600 6350 50  0001 C CNN
+F 3 "~" H 6600 6350 50  0001 C CNN
+	1    6600 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62199E5C
+P 6150 6350
+F 0 "J?" H 6042 6125 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 6042 6216 50  0000 C CNN
+F 2 "" H 6150 6350 50  0001 C CNN
+F 3 "~" H 6150 6350 50  0001 C CNN
+	1    6150 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62199E62
+P 6050 6350
+F 0 "J?" H 6078 6376 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 6078 6285 50  0000 L CNN
+F 2 "" H 6050 6350 50  0001 C CNN
+F 3 "~" H 6050 6350 50  0001 C CNN
+	1    6050 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62199E68
+P 5600 6350
+F 0 "J?" H 5492 6125 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5492 6216 50  0000 C CNN
+F 2 "" H 5600 6350 50  0001 C CNN
+F 3 "~" H 5600 6350 50  0001 C CNN
+	1    5600 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62199E6E
+P 5550 6350
+F 0 "J?" H 5578 6376 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5578 6285 50  0000 L CNN
+F 2 "" H 5550 6350 50  0001 C CNN
+F 3 "~" H 5550 6350 50  0001 C CNN
+	1    5550 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62199E74
+P 5100 6350
+F 0 "J?" H 4992 6125 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4992 6216 50  0000 C CNN
+F 2 "" H 5100 6350 50  0001 C CNN
+F 3 "~" H 5100 6350 50  0001 C CNN
+	1    5100 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62199E7A
+P 5000 6350
+F 0 "J?" H 5028 6376 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5028 6285 50  0000 L CNN
+F 2 "" H 5000 6350 50  0001 C CNN
+F 3 "~" H 5000 6350 50  0001 C CNN
+	1    5000 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62199E80
+P 4550 6350
+F 0 "J?" H 4442 6125 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4442 6216 50  0000 C CNN
+F 2 "" H 4550 6350 50  0001 C CNN
+F 3 "~" H 4550 6350 50  0001 C CNN
+	1    4550 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 62199E86
+P 6300 7050
+F 0 "D?" V 6346 6970 50  0000 R CNN
+F 1 "1N4148W" V 6255 6970 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6300 6875 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6300 7050 50  0001 C CNN
+	1    6300 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 62199E8C
+P 5800 7050
+F 0 "D?" V 5846 6970 50  0000 R CNN
+F 1 "1N4148W" V 5755 6970 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5800 6875 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5800 7050 50  0001 C CNN
+	1    5800 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 62199E92
+P 5300 7050
+F 0 "D?" V 5346 6970 50  0000 R CNN
+F 1 "1N4148W" V 5255 6970 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5300 6875 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5300 7050 50  0001 C CNN
+	1    5300 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148W D?
+U 1 1 62199E98
+P 4800 7050
+F 0 "D?" V 4846 6970 50  0000 R CNN
+F 1 "1N4148W" V 4755 6970 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4800 6875 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4800 7050 50  0001 C CNN
+	1    4800 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L hotswapsocket:switchsocket U?
+U 1 1 62199E9E
+P 6300 6500
+F 0 "U?" H 6312 6575 50  0000 C CNN
+F 1 "switchsocket" H 6312 6484 50  0000 C CNN
+F 2 "" H 6300 6500 50  0001 C CNN
+F 3 "" H 6300 6500 50  0001 C CNN
+	1    6300 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
-U 1 1 62105CCC
-P 3950 5600
-F 0 "U?" H 3962 5675 50  0000 C CNN
-F 1 "switchsocket" H 3962 5584 50  0000 C CNN
-F 2 "" H 3950 5600 50  0001 C CNN
-F 3 "" H 3950 5600 50  0001 C CNN
-	1    3950 5600
+U 1 1 62199EA4
+P 5800 6500
+F 0 "U?" H 5812 6575 50  0000 C CNN
+F 1 "switchsocket" H 5812 6484 50  0000 C CNN
+F 2 "" H 5800 6500 50  0001 C CNN
+F 3 "" H 5800 6500 50  0001 C CNN
+	1    5800 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
-U 1 1 62105CD2
-P 4500 5600
-F 0 "U?" H 4512 5675 50  0000 C CNN
-F 1 "switchsocket" H 4512 5584 50  0000 C CNN
-F 2 "" H 4500 5600 50  0001 C CNN
-F 3 "" H 4500 5600 50  0001 C CNN
-	1    4500 5600
+U 1 1 62199EAA
+P 5300 6500
+F 0 "U?" H 5312 6575 50  0000 C CNN
+F 1 "switchsocket" H 5312 6484 50  0000 C CNN
+F 2 "" H 5300 6500 50  0001 C CNN
+F 3 "" H 5300 6500 50  0001 C CNN
+	1    5300 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L hotswapsocket:switchsocket U?
-U 1 1 62105CD8
-P 5000 5600
-F 0 "U?" H 5012 5675 50  0000 C CNN
-F 1 "switchsocket" H 5012 5584 50  0000 C CNN
-F 2 "" H 5000 5600 50  0001 C CNN
-F 3 "" H 5000 5600 50  0001 C CNN
-	1    5000 5600
+U 1 1 62199EB0
+P 4800 6500
+F 0 "U?" H 4812 6575 50  0000 C CNN
+F 1 "switchsocket" H 4812 6484 50  0000 C CNN
+F 2 "" H 4800 6500 50  0001 C CNN
+F 3 "" H 4800 6500 50  0001 C CNN
+	1    4800 6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L hotswapsocket:switchsocket U?
-U 1 1 62105CDE
-P 5500 5600
-F 0 "U?" H 5512 5675 50  0000 C CNN
-F 1 "switchsocket" H 5512 5584 50  0000 C CNN
-F 2 "" H 5500 5600 50  0001 C CNN
-F 3 "" H 5500 5600 50  0001 C CNN
-	1    5500 5600
-	1    0    0    -1  
+L Connector:Conn_01x01_Female J?
+U 1 1 62199EB6
+P 4450 7300
+F 0 "J?" H 4342 7075 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4342 7166 50  0000 C CNN
+F 2 "" H 4450 7300 50  0001 C CNN
+F 3 "~" H 4450 7300 50  0001 C CNN
+	1    4450 7300
+	-1   0    0    1   
 $EndComp
 $Comp
-L hotswapsocket:switchsocket U?
-U 1 1 62105CE4
-P 6000 5600
-F 0 "U?" H 6012 5675 50  0000 C CNN
-F 1 "switchsocket" H 6012 5584 50  0000 C CNN
-F 2 "" H 6000 5600 50  0001 C CNN
-F 3 "" H 6000 5600 50  0001 C CNN
-	1    6000 5600
-	1    0    0    -1  
+L Connector:Conn_01x01_Female J?
+U 1 1 62199EBC
+P 4450 7400
+F 0 "J?" H 4342 7175 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4342 7266 50  0000 C CNN
+F 2 "" H 4450 7400 50  0001 C CNN
+F 3 "~" H 4450 7400 50  0001 C CNN
+	1    4450 7400
+	-1   0    0    1   
 $EndComp
 $Comp
-L hotswapsocket:switchsocket U?
-U 1 1 62107BB3
-P 3950 6600
-F 0 "U?" H 3962 6675 50  0000 C CNN
-F 1 "switchsocket" H 3962 6584 50  0000 C CNN
-F 2 "" H 3950 6600 50  0001 C CNN
-F 3 "" H 3950 6600 50  0001 C CNN
-	1    3950 6600
-	1    0    0    -1  
+L Connector:Conn_01x01_Female J?
+U 1 1 62199EC2
+P 4950 7300
+F 0 "J?" H 4842 7075 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4842 7166 50  0000 C CNN
+F 2 "" H 4950 7300 50  0001 C CNN
+F 3 "~" H 4950 7300 50  0001 C CNN
+	1    4950 7300
+	-1   0    0    1   
 $EndComp
 $Comp
-L hotswapsocket:switchsocket U?
-U 1 1 62107BB9
-P 4500 6600
-F 0 "U?" H 4512 6675 50  0000 C CNN
-F 1 "switchsocket" H 4512 6584 50  0000 C CNN
-F 2 "" H 4500 6600 50  0001 C CNN
-F 3 "" H 4500 6600 50  0001 C CNN
-	1    4500 6600
-	1    0    0    -1  
+L Connector:Conn_01x01_Female J?
+U 1 1 62199EC8
+P 4950 7400
+F 0 "J?" H 4842 7175 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4842 7266 50  0000 C CNN
+F 2 "" H 4950 7400 50  0001 C CNN
+F 3 "~" H 4950 7400 50  0001 C CNN
+	1    4950 7400
+	-1   0    0    1   
 $EndComp
 $Comp
-L hotswapsocket:switchsocket U?
-U 1 1 62107BBF
-P 5000 6600
-F 0 "U?" H 5012 6675 50  0000 C CNN
-F 1 "switchsocket" H 5012 6584 50  0000 C CNN
-F 2 "" H 5000 6600 50  0001 C CNN
-F 3 "" H 5000 6600 50  0001 C CNN
-	1    5000 6600
-	1    0    0    -1  
+L Connector:Conn_01x01_Female J?
+U 1 1 62199ECE
+P 5500 7300
+F 0 "J?" H 5392 7075 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5392 7166 50  0000 C CNN
+F 2 "" H 5500 7300 50  0001 C CNN
+F 3 "~" H 5500 7300 50  0001 C CNN
+	1    5500 7300
+	-1   0    0    1   
 $EndComp
 $Comp
-L hotswapsocket:switchsocket U?
-U 1 1 62107BC5
-P 5500 6600
-F 0 "U?" H 5512 6675 50  0000 C CNN
-F 1 "switchsocket" H 5512 6584 50  0000 C CNN
-F 2 "" H 5500 6600 50  0001 C CNN
-F 3 "" H 5500 6600 50  0001 C CNN
-	1    5500 6600
-	1    0    0    -1  
+L Connector:Conn_01x01_Female J?
+U 1 1 62199ED4
+P 5500 7400
+F 0 "J?" H 5392 7175 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5392 7266 50  0000 C CNN
+F 2 "" H 5500 7400 50  0001 C CNN
+F 3 "~" H 5500 7400 50  0001 C CNN
+	1    5500 7400
+	-1   0    0    1   
 $EndComp
 $Comp
-L hotswapsocket:switchsocket U?
-U 1 1 62107BCB
-P 6000 6600
-F 0 "U?" H 6012 6675 50  0000 C CNN
-F 1 "switchsocket" H 6012 6584 50  0000 C CNN
-F 2 "" H 6000 6600 50  0001 C CNN
-F 3 "" H 6000 6600 50  0001 C CNN
-	1    6000 6600
-	1    0    0    -1  
+L Connector:Conn_01x01_Female J?
+U 1 1 62199EDA
+P 5950 7300
+F 0 "J?" H 5842 7075 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5842 7166 50  0000 C CNN
+F 2 "" H 5950 7300 50  0001 C CNN
+F 3 "~" H 5950 7300 50  0001 C CNN
+	1    5950 7300
+	-1   0    0    1   
 $EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 62199EE0
+P 5950 7400
+F 0 "J?" H 5842 7175 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5842 7266 50  0000 C CNN
+F 2 "" H 5950 7400 50  0001 C CNN
+F 3 "~" H 5950 7400 50  0001 C CNN
+	1    5950 7400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 6350 4250 6350
+Wire Wire Line
+	4250 6350 4250 6450
+Wire Wire Line
+	4250 6450 4350 6450
+Wire Wire Line
+	4350 6450 4350 6650
+Connection ~ 4250 6350
+Wire Wire Line
+	4750 6350 4800 6350
+Wire Wire Line
+	4800 6350 4800 6450
+Wire Wire Line
+	4800 6450 4900 6450
+Wire Wire Line
+	4900 6450 4900 6650
+Connection ~ 4800 6350
+Wire Wire Line
+	5300 6350 5350 6350
+Wire Wire Line
+	5350 6350 5350 6450
+Wire Wire Line
+	5350 6450 5400 6450
+Wire Wire Line
+	5400 6450 5400 6650
+Connection ~ 5350 6350
+Wire Wire Line
+	5800 6350 5850 6350
+Wire Wire Line
+	5850 6350 5850 6450
+Wire Wire Line
+	5850 6450 5900 6450
+Wire Wire Line
+	5900 6450 5900 6650
+Connection ~ 5850 6350
+Wire Wire Line
+	6350 6350 6400 6350
+Wire Wire Line
+	6350 6350 6350 6450
+Wire Wire Line
+	6350 6450 6400 6450
+Wire Wire Line
+	6400 6450 6400 6650
+Connection ~ 6350 6350
+Wire Wire Line
+	4250 7200 4250 7300
+Wire Wire Line
+	4250 7300 4100 7300
+Wire Wire Line
+	4100 7400 4250 7400
+Wire Wire Line
+	4250 7400 4250 7300
+Connection ~ 4250 7300
+Wire Wire Line
+	4650 7300 4800 7300
+Wire Wire Line
+	4800 7300 4800 7200
+Wire Wire Line
+	4650 7400 4800 7400
+Wire Wire Line
+	4800 7400 4800 7300
+Connection ~ 4800 7300
+Wire Wire Line
+	5150 7300 5300 7300
+Wire Wire Line
+	5300 7300 5300 7200
+Wire Wire Line
+	5150 7400 5300 7400
+Wire Wire Line
+	5300 7400 5300 7300
+Connection ~ 5300 7300
+Wire Wire Line
+	5700 7300 5800 7300
+Wire Wire Line
+	5800 7300 5800 7200
+Wire Wire Line
+	5700 7400 5800 7400
+Wire Wire Line
+	5800 7400 5800 7300
+Connection ~ 5800 7300
+Wire Wire Line
+	6150 7300 6300 7300
+Wire Wire Line
+	6300 7300 6300 7200
+Wire Wire Line
+	6150 7400 6300 7400
+Wire Wire Line
+	6300 7400 6300 7300
+Connection ~ 6300 7300
 $EndSCHEMATC
