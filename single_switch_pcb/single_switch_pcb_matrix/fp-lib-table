@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name hotswapsocket)(type KiCad)(uri "C:/Users/Carlo Carino/Documents/Personal Projects/Single Switch Hotswap PCB Module/single_switch_pcb/libraries/hotswapsocket.pretty")(options "")(descr ""))
+)
