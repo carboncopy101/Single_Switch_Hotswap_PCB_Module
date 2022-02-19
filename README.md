@@ -13,7 +13,8 @@ PCB features a hot swappable socket and uses a 1n4148 SMD diode.
 16 Feb 2022 - test print. all components line up. Move on to creating a matrix of single switch pcb. New kicad project?
 
 18 Feb 2022 - created kicad project for single switch matrix
-
+ 
+19 Feb 2022 - finished schematic and netlist. To proceed to pcb design.
 ## To Do
 - Initial BOM (done 13 Feb 2022)
 - Symbol and footprint for each component (done 14 Feb 2022)
